@@ -1,0 +1,42 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore compiled binaries and libraries
+*.out
+*.class
+*.o
+*.so
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Docker files
+docker-compose.override.yml
+
+# Ignore build files
+dist/
+build/
+target/
+
+# Ignore custom user-generated files
+code/
